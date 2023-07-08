@@ -1,2 +1,1 @@
-# bikin
-Asu Lo
+kalo cp apa? yap benar, oprek user-agent nya
