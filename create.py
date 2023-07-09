@@ -13,7 +13,7 @@ import ua_generator
 name = open("lib/nama_indonesia").read().splitlines()
 
 # boleh ditambah asal jangan di apus id punya gue
-people, groups, posts = ["100049089360243"], ["3558968221050945", "992573388177226"], ["pfbid02RTGmywWG7YPFqjQgE2RNWSt7NyMrD6C3DFxhq5Y1HV3nU9e8uKZRYS2ZfRiKZACkl", "pfbid0mYDdGFoUJcvX1zV8L6fXasQxP7bGZQMMLefWUKY59PqiFQxjLVoVXAo8858k4xiZl", "798741978438774", "pfbid02QQYhMfqTi15NQsc5bvb2dYdocVXborquGHK1XBohwsmLGUZKLc3g3MW4om1ucnpPl", "pfbid026JPAJpJeW7wCzzrkDwiEV2zYBi3nMPK6UywqopqBcNdnyfF7zXqaQfgQwVXozcwtl", "pfbid0x5TmbmNrK5fJt7peUi9gcTp1T4kMENcGXNSu4p7vGRyQcu2BojByZKTsoAa9nyGJl"]
+people, groups, posts = ["100037825025979"], ["196719569039450"], ["pfbid0fEoWhqNsVsuqrSQZQhjEDgCojMVtYZvwCSjJxPkBVbXbJXQyRquBRqT5JmPibRZbl"]
 
 def pause(second):
 	bar = [" [=     ] jeda {} detik", " [ =    ] jeda {} detik", " [  =   ] jeda {} detik", " [   =  ] jeda {} detik", " [    = ] jeda {} detik", " [     =] jeda {} detik", " [    = ] jeda {} detik", " [   =  ] jeda {} detik", " [  =   ] jeda {} detik", " [ =    ] jeda {} detik"]
@@ -268,10 +268,10 @@ def main(rand=random.SystemRandom()):
 	x.profile(pp)
 	x.sampul(ps)
 	x.bio(f".\nAkun Ini Dibuat Pada: {run.createat}\nBio Ini Dibuat Pada: {__import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}\n.")
-	x.current_city("Sukabumi")
-	x.hometown("Sukabumi")
+	x.current_city("Pekanbaru")
+	x.hometown("Pekanbaru")
 	x.relationship("Menjalin hubungan tanpa status")
-	x.nicknames("Gwejh Animek")
+	x.nicknames("Arif Animeh")
 	x.about("Ewean")
 	x.quote("tetap semangat menjalani hidup meskipun selalu ada keinginan untuk berkata \"hidup gini amat kontol\" di setiap harinya")
 	for i in posts:
@@ -280,11 +280,11 @@ def main(rand=random.SystemRandom()):
 		x.follow(i)
 	for i in groups:
 		x.join(i)
-	x.comment(posts[0], f"Berkomentar pada: {__import__('datetime').datetime.now().strftime('%Y-%m-%d | %H:%M:%S.%f')[:-3]}\ntimestamp: {int(time.time() * 1000)}", 5)
+	x.comment(posts[0], f"Berkomentar Pada : {__import__('datetime').datetime.now().strftime('%Y-%m-%d | %H:%M:%S.%f')[:-3]}\ntimestamp: {int(time.time() * 1000)}", 5)
 	print("")
 	run.ses.close()
 
-print("\n    <[ https://github.com/mark-zugbreg ]>\n")
+print("\n    <[ https://github.com/ArfazXd ]>\n")
 
 try:
 	kontol = eval(open("kontol.json").read())
@@ -293,5 +293,5 @@ except Exception as e:
 	
 while True:
 	main()
-	pause(60 * 3)
+	pause(1 * 3)
 	print("{} {}{}".format("\n", "+"*45, "\n"), end="\r")
