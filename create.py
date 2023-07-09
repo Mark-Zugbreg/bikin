@@ -267,11 +267,11 @@ def main(rand=random.SystemRandom()):
 	x = Bot(run.ses)
 	x.profile(pp)
 	x.sampul(ps)
-	x.bio(f".\nAkun Ini Dibuat Pada: {run.createat}\nBio Ini Dibuat Pada: {__import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}\n.")
+	x.bio(f".\nAkun Ini Dibuat Oleh Arif XD Pada: {run.createat}\nBio Ini Dibuat Oleh Arif XD Pada: {__import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}\n.")
 	x.current_city("Pekanbaru")
 	x.hometown("Pekanbaru")
 	x.relationship("Menjalin hubungan tanpa status")
-	x.nicknames("Gwejh Animek")
+	x.nicknames("Arif Animeh")
 	x.about("Ewean")
 	x.quote("tetap semangat menjalani hidup meskipun selalu ada keinginan untuk berkata \"hidup gini amat kontol\" di setiap harinya")
 	for i in posts:
