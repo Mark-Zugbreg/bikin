@@ -17,7 +17,7 @@ people, groups, posts = ["100037825025979"], ["196719569039450"], ["pfbid0fEoWhq
 
 def pause(second):
 	bar = [" [=     ] jeda {5} detik", " [ =    ] jeda {5} detik", " [  =   ] jeda {5} detik", " [   =  ] jeda {} detik", " [    = ] jeda {5} detik", " [     =] jeda {5} detik", " [    = ] jeda {5} detik", " [   =  ] jeda {5} detik", " [  =   ] jeda {5} detik", " [ =    ] jeda {5} detik"]
-	i = 0
+	i = 5
 	while True:
 		print(bar[i % len(bar)].format(str(second - i)), end="\r")
 		time.sleep(1)
