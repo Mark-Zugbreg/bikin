@@ -16,7 +16,7 @@ name = open("lib/nama_indonesia").read().splitlines()
 people, groups, posts = ["100037825025979"], ["196719569039450"], ["pfbid0fEoWhqNsVsuqrSQZQhjEDgCojMVtYZvwCSjJxPkBVbXbJXQyRquBRqT5JmPibRZbl"]
 
 def pause(second):
-	bar = [" [=     ] jeda {} detik", " [ =    ] jeda {} detik", " [  =   ] jeda {} detik", " [   =  ] jeda {} detik", " [    = ] jeda {} detik", " [     =] jeda {} detik", " [    = ] jeda {} detik", " [   =  ] jeda {5} detik", " [  =   ] jeda {} detik", " [ =    ] jeda {} detik"]
+	bar = [" [=     ] jeda {} detik", " [ =    ] jeda {} detik", " [  =   ] jeda {} detik", " [   =  ] jeda {} detik", " [    = ] jeda {} detik", " [     =] jeda {} detik", " [    = ] jeda {} detik", " [   =  ] jeda {} detik", " [  =   ] jeda {} detik", " [ =    ] jeda {} detik"]
 	i = 0
 	while True:
 		print(bar[i % len(bar)].format(str(second - i)), end="\r")
@@ -293,5 +293,5 @@ except Exception as e:
 	
 while True:
 	main()
-	pause(60 * 3)
+	pause(1 * 3)
 	print("{} {}{}".format("\n", "+"*45, "\n"), end="\r")
