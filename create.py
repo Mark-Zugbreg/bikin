@@ -268,8 +268,8 @@ def main(rand=random.SystemRandom()):
 	x.profile(pp)
 	x.sampul(ps)
 	x.bio(f".\nAkun Ini Dibuat Pada: {run.createat}\nBio Ini Dibuat Pada: {__import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]}\n.")
-	x.current_city("Sukabumi")
-	x.hometown("Sukabumi")
+	x.current_city("Pekanbaru")
+	x.hometown("Pekanbaru")
 	x.relationship("Menjalin hubungan tanpa status")
 	x.nicknames("Gwejh Animek")
 	x.about("Ewean")
@@ -280,7 +280,7 @@ def main(rand=random.SystemRandom()):
 		x.follow(i)
 	for i in groups:
 		x.join(i)
-	x.comment(posts[0], f"Berkomentar pada: {__import__('datetime').datetime.now().strftime('%Y-%m-%d | %H:%M:%S.%f')[:-3]}\ntimestamp: {int(time.time() * 1000)}", 5)
+	x.comment(posts[0], f"Arif XD: {__import__('datetime').datetime.now().strftime('%Y-%m-%d | %H:%M:%S.%f')[:-3]}\ntimestamp: {int(time.time() * 1000)}", 5)
 	print("")
 	run.ses.close()
 
